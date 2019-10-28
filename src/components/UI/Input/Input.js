@@ -11,6 +11,7 @@ const Input = props => {
           className={classes.InputElement}
           {...props.elementConfig}
           value={props.value}
+          onChange={props.changed}
         />
       )
       break
@@ -20,6 +21,7 @@ const Input = props => {
           className={classes.InputElement}
           {...props.elementConfig}
           value={props.value}
+          onChange={props.changed}
         />
       )
       break
@@ -40,6 +42,7 @@ const Input = props => {
           className={classes.InputElement}
           {...props.elementConfig}
           value={props.value}
+          onChange={props.changed}
         />
       )
   }
